@@ -10,8 +10,7 @@ We want you to design a system that allows the building and execution of third-p
 
 The system should be language-agnostic, but for the purpose of this design, we are focusing on .NET and Python applications.
 
-![systemdesign drawio](https://github.com/buhlergroup/dev-challenge-02/assets/1763806/dc02ff9a-817c-4008-a5bb-bd8c175734ba)
-
+![systemdesign drawio](https://github.com/buhlergroup/dev-challenge-02/assets/1763806/0778f41e-c3c1-4719-9ab6-bc005a1fe9ba)
 
 ### UI Development:
 
