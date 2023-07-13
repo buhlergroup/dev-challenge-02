@@ -6,18 +6,31 @@ We want you to design a system that allows the building and execution of third-p
 
 ## Requirements:
 
-### System Scope: The system should be language-agnostic, but for the purpose of this design, we are focusing on .NET and Python applications.
+### System Scope:
 
-### UI Development: Third-party applications can expose a UI which must be developed using Angular. This UI should be packaged alongside its backend logic.
+The system should be language-agnostic, but for the purpose of this design, we are focusing on .NET and Python applications.
 
-### Application URLs: Every application should have its own URL that follows this format - myapp.apps.myplatform.io.
+![systemdesign drawio](https://github.com/buhlergroup/dev-challenge-02/assets/1763806/dc02ff9a-817c-4008-a5bb-bd8c175734ba)
 
-### Authentication: Authentication should be managed at the ingress point of this execution environment, not within the frontend of the application.
 
-### API Access: Applications should be able to access the existing platform API in one of two ways:
+### UI Development:
 
-As a technical user specifically assigned to the application
-As a logged-in platform user
+Third-party applications can expose a UI which must be developed using Angular. This UI should be packaged alongside its backend logic.
+
+### Application URLs:
+
+Every application should have its own URL that follows this format - myapp.apps.myplatform.io.
+
+### Authentication:
+
+Authentication should be managed at the ingress point of this execution environment, not within the frontend of the application.
+
+### API Access:
+
+Applications should be able to access the existing platform API in one of two ways:
+
+* As a technical user specifically assigned to the application
+* As a logged-in platform user
 
 ## Instructions:
 
